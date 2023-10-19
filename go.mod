@@ -1,4 +1,4 @@
-module awesomeProject
+module newrule
 
 go 1.19
 
