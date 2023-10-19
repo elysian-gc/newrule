@@ -3,7 +3,6 @@ package main
 import (
 	"go/ast"
 	"go/token"
-	"golang.org/x/tools/go/analysis/singlechecker"
 	"strings"
 
 	"golang.org/x/tools/go/analysis"
@@ -27,8 +26,4 @@ func run(pass *analysis.Pass) (interface{}, error) {
 		})
 	}
 	return nil, nil
-}
-
-func main() {
-	singlechecker.Main(Analyzer)
 }
