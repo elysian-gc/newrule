@@ -1,4 +1,4 @@
-module newrule
+module github.com/elysian-gc/newrule
 
 go 1.19
 
