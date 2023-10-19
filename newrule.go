@@ -1,4 +1,4 @@
-package newrule
+package awesomeProject
 
 import (
 	"go/ast"

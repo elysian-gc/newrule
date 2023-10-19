@@ -1,10 +1,10 @@
 package main
 
 import (
-	"awesomeProject/newrule"
+	"awesomeProject"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 
 func main() {
-	singlechecker.Main(newrule.Analyzer)
+	singlechecker.Main(awesomeProject.Analyzer)
 }
